@@ -1,0 +1,32 @@
+nav {
+	background-color: $light;
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		text-align: center;
+		
+		li {
+			display: inline;
+		}
+		
+		a {
+			color: inherit;
+			display: inline-block;
+			font-size: 2rem;
+			font-weight: bold;
+			text-decoration: none;
+			text-transform: uppercase;
+			vertical-align: top;
+			
+			&:not(.logo-container) {
+				padding: 2rem;
+			}
+			
+			&:hover {
+				color: $dark;
+				background-color: $medium;
+			}
+		}
+	}
+}

@@ -1,0 +1,107 @@
+---
+---
+
+@import "global";
+
+.title {
+		background-image: url(/assets/images/title.JPG);
+		background-size: cover;
+		color: $lightest;
+		text-align: center;
+		width: 100%;
+		z-index: 1;
+		
+		.filter {
+			background-color: rgba(50,50,50,0.4);
+			height: 100%;
+			width: 100%;
+		}
+		
+		.container {
+			padding: 35rem 0;
+		}
+		
+		h1 {
+			color: $light-font;
+			font-size: 12rem;
+			line-height: 8rem;
+			margin: 0;
+		}
+		
+		h2 {
+			color: $light-font;
+			font-family: $secondary-font-family;
+			margin: 0;
+		}
+	}
+
+section {
+	padding: 4rem 0;
+	
+	img {
+		border-radius: 50%;
+		padding: 10%;
+		width: 80%;
+	}
+	
+	.img-description {
+		
+		h4 {
+			font-size: 2.5rem;
+			margin: 0;
+		}
+		
+		h5 {
+			color: $medium-font;
+			font-family: $secondary-font-family;
+			font-size: 1.8rem;
+		}
+	}
+	
+	&.dark {
+		background-color: $dark;
+		
+		h1 {
+			color: $light-font;
+		}
+	}
+	
+	form {
+		padding-top: 4rem;
+		text-align: center;
+	}
+	
+	input {
+		display: block;
+		
+		&[type=submit] {
+			margin: 0;
+		}
+		
+		&:not([type=submit]) {
+			margin: 0 auto 3rem auto;
+			width: 35rem;
+		}
+	}
+}
+
+.subheader {
+	div {
+		color: $medium-font;
+		display: inline-block;
+		font-family: $secondary-font-family;
+		font-size: 2rem;
+		text-align: center;
+		width: 20%;
+	}
+	
+	hr {
+		display: inline-block;
+		width: 39%;
+	}
+}
+
+hr {
+	border-top: 0.5rem solid $medium;
+	margin: 0;
+}
