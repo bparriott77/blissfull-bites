@@ -1,0 +1,44 @@
+footer {
+	background-color: $light;
+	padding: 4rem 0;
+	
+	hr {
+		border-color: $dark;
+	}
+	
+	p {
+		color: $medium-font;
+		margin: 0;
+		text-align: center;
+	}
+	
+	a {
+		display: inline-block;
+	}
+	
+	i {
+		color: $medium-font;
+		font-size: 4rem;
+		padding: 0 1rem;
+	}
+	
+	.column {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+	
+	.connect {
+		line-height: 3rem;
+		margin: 0;
+	}
+	
+	.fine-print {
+		.five {
+			padding-top: 2.4rem;
+			
+			&:first-of-type {
+				text-align: right;
+			}
+		}
+	}
+}

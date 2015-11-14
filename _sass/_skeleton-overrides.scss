@@ -12,3 +12,8 @@ input[type=submit] {
 	background-color: $light !important;
 	color: $dark !important;
 }
+
+a {
+	color: $medium-font;
+	text-decoration: none;
+}

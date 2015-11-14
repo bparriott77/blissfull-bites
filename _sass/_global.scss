@@ -1,4 +1,5 @@
 @import "variables";
+@import "fonts";
 
 @import "lib/normalize";
 @import "lib/animate";
@@ -7,6 +8,7 @@
 @import "skeleton-overrides";
 @import "logo";
 @import "nav";
+@import "footer";
 
 * {
 	color: $dark-font;
