@@ -1,22 +1,25 @@
 nav {
 	background-color: $light;
 	
-	ul {
-		list-style: none;
+	.row {
 		margin: 0;
-		text-align: center;
 		
-		li {
+		.columns {
 			display: inline;
+			
+			&:first-of-type {
+				text-align: right;
+			}
 		}
 		
 		a {
 			color: inherit;
 			display: inline-block;
-			font-size: 2rem;
-			font-weight: bold;
+			text-align: center;
 			text-decoration: none;
+			font-size: 2rem;
 			text-transform: uppercase;
+			font-weight: bold;
 			vertical-align: top;
 			
 			&:not(.logo-container) {
