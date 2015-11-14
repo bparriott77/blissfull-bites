@@ -1,3 +1,7 @@
-var parallax = require('../lib/parallax');
+var $ = require('jquery');
+var parallax = require('Parallax-ImageScroll');
 
-console.log('here');
+$('.img-holder').imageScroll({
+	speed: 0.8,
+    coverRatio: 0.5
+});

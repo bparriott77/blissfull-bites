@@ -4,36 +4,36 @@
 @import "global";
 
 .title {
-		background-image: url(/assets/images/dist/title.JPG);
-		background-size: cover;
-		color: $lightest;
-		text-align: center;
+	background-image: url(/assets/images/dist/title.JPG);
+	background-size: cover;
+	color: $lightest;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+	
+	.filter {
+		background-color: rgba(50,50,50,0.4);
+		height: 100%;
 		width: 100%;
-		z-index: 1;
-		
-		.filter {
-			background-color: rgba(50,50,50,0.4);
-			height: 100%;
-			width: 100%;
-		}
-		
-		.container {
-			padding: 35rem 0;
-		}
-		
-		h1 {
-			color: $light-font;
-			font-size: 12rem;
-			line-height: 8rem;
-			margin: 0;
-		}
-		
-		h2 {
-			color: $light-font;
-			font-family: $secondary-font-family;
-			margin: 0;
-		}
 	}
+	
+	.container {
+		padding: 35rem 0;
+	}
+	
+	h1 {
+		color: $light-font;
+		font-size: 12rem;
+		line-height: 8rem;
+		margin: 0;
+	}
+	
+	h2 {
+		color: $light-font;
+		font-family: $secondary-font-family;
+		margin: 0;
+	}
+}
 
 section {
 	padding: 4rem 0;
@@ -56,6 +56,10 @@ section {
 			font-family: $secondary-font-family;
 			font-size: 1.8rem;
 		}
+	}
+	
+	&.light {
+		background-color: $lightest;
 	}
 	
 	&.dark {
