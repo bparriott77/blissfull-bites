@@ -1,0 +1,35 @@
+{
+  "name": "be-sweet-bakery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "debowerify": "^1.3.1",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-uglify": "^1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bparriott77@github.com/bparriott77/blissfull-bites.git"
+  },
+  "author": "Mitchel Pigsley <mpigsley@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bparriott77/blissfull-bites/issues"
+  },
+  "homepage": "https://github.com/bparriott77/blissfull-bites#readme",
+  "browserify": {
+    "transform": [
+      "debowerify"
+    ]
+  }
+}

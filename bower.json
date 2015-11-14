@@ -5,7 +5,9 @@
   ],
   "description": "",
   "main": "",
-  "moduleType": [],
+  "moduleType": [
+    "node"
+  ],
   "license": "MIT",
   "homepage": "",
   "private": true,
@@ -18,6 +20,7 @@
   ],
   "dependencies": {
     "skeleton": "~2.0.4",
-    "animate.css": "~3.4.0"
+    "animate.css": "~3.4.0",
+    "jquery": "~2.1.4"
   }
 }
