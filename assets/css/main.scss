@@ -173,6 +173,14 @@ section {
 		display: inline-block;
 		width: 39%;
 	}
+    
+    p {
+		color: $medium-font;
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+        padding: 0 8rem;
+        text-align: center;
+    }
 }
 
 hr {
