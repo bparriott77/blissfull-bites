@@ -3,14 +3,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0.8rem;
 }
 
-input[type] {
-	border: 0 !important;
-	border-radius: 0 !important;
-}
-
-input[type=submit] {
-	background-color: $light !important;
-	color: $dark !important;
+input[type],
+textarea {
+	border: 0;
+	border-radius: 0;
 }
 
 a {

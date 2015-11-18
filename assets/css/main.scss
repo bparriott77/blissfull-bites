@@ -61,11 +61,15 @@ section {
 	&.light {
 		background-color: $lightest;
 	}
+    
+    &.medium {
+		background-color: $light;
+    }
 	
 	&.dark {
 		background-color: $dark;
 		
-		h1 {
+		h1, h4 {
 			color: $light-font;
 		}
 	}
@@ -73,19 +77,76 @@ section {
 	form {
 		padding-top: 4rem;
 		text-align: center;
-	}
-	
-	input {
-		display: block;
-		
-		&[type=submit] {
-			margin: 0;
-		}
-		
-		&:not([type=submit]) {
-			margin: 0 auto 3rem auto;
-			width: 35rem;
-		}
+        
+        &:not(.alternative) {
+            input {
+                display: block;
+                
+                &[type=submit] {
+                    background-color: $light;
+                    color: $dark;
+                    margin: 0 auto;
+                }
+                
+                &:not([type=submit]) {
+                    margin: 0 auto 3rem auto;
+                    width: 35rem;
+                }
+            }
+        }
+        
+        &.alternative {
+            text-align: left;
+            
+            label {
+                color: $dark;
+                font-style: italic;
+                margin-left: 1rem;
+            }
+            
+            input {
+                display: block;
+                
+                &[type=submit] {
+                    background-color: $dark;
+                    color: $lightest;
+                    margin: 0 auto;
+                }
+                
+                &:not([type=submit]) {
+                    border: 0;
+                    border-bottom: 1px solid $dark;
+                    outline: 0;
+                }
+            }
+            
+            textarea {
+                border: 1px solid $dark;
+                height: 18rem;
+                outline: 0;
+                resize: none;
+            }
+            
+            ::-webkit-input-placeholder {
+                color: $dark;
+                font-style: italic;
+            }
+            
+            :-moz-placeholder { /* Firefox 18- */
+                color: $dark;
+                font-style: italic;
+            }
+            
+            ::-moz-placeholder {  /* Firefox 19+ */
+                color: $dark;
+                font-style: italic;
+            }
+            
+            :-ms-input-placeholder {  
+                color: $dark;
+                font-style: italic;
+            }
+        }
 	}
 }
 
