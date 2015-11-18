@@ -12,4 +12,12 @@ textarea {
 a {
 	color: $medium-font;
 	text-decoration: none;
+    
+    &:hover {
+        color: $dark-font;
+        
+        i {
+            color: $dark-font;
+        }
+    }
 }

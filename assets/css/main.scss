@@ -86,6 +86,11 @@ section {
                     background-color: $light;
                     color: $dark;
                     margin: 0 auto;
+                    
+                    &:hover {
+                        background-color: $medium;
+                        color: $dark;
+                    }
                 }
                 
                 &:not([type=submit]) {
@@ -111,6 +116,10 @@ section {
                     background-color: $dark;
                     color: $lightest;
                     margin: 0 auto;
+                    
+                    &:hover {
+                        background-color: black;
+                    }
                 }
                 
                 &:not([type=submit]) {
