@@ -1,5 +1,5 @@
 var $ = require('jquery');
-var parallax = require('Parallax-ImageScroll');
+require('Parallax-ImageScroll');
 
 $('.img-holder').imageScroll({
 	speed: 0.8,
