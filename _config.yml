@@ -16,54 +16,54 @@ sass:
 menu:
   - title: Jumbo Muffins
     price: $2.00
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/muffins.jpg
     is_featured: false
   - title: Cupcakes
     price: $2.00
     image: /assets/images/dist/football_cupcakes.JPG
-    is_featured: false
+    is_featured: true
   - title: 9 Inch Cheesecake
     price: Prices Vary
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/cheesecake.JPG
     is_featured: true
   - title: Cupcake Sized Cheesecake
     price: $2.50 (minimum 1 dozen)
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/default.jpg
     is_featured: false
   - title: Custom Cake
     price: Prices Vary
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/flower_cake.JPG
     is_featured: false
   - title: Cinnamon Rolls
     price: $18.00/dozen
-    image: /assets/images/dist/football_cupcakes.JPG
-    is_featured: true
+    image: /assets/images/dist/default.jpg
+    is_featured: false
   - title: Custom Design Cookies
     price: $12.00/dozen
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/halloween_cookies.JPG
     is_featured: true
   - title: Brownies & Bars
     price: $15.00/dozen
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/brownies.JPG
     is_featured: false
   - title: Quiches and Pies
     price: $13.00
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/quiche.JPG
     is_featured: false
   - title: Cupcake Bouquets
     price: $30.00
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/cupcake_bouquet.jpg
     is_featured: false
   - title: Cake Pops
     price: $18.00/dozen
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/cake_pops.jpg
     is_featured: false
-  - title: Specialty Break Loafs
+  - title: Specialty Bread Loafs
     price: $8.00
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/default.jpg
     is_featured: false
   - title: Coconut Macaroons
     price: $12.00/dozen
-    image: /assets/images/dist/football_cupcakes.JPG
+    image: /assets/images/dist/default.jpg
     is_featured: false
   
