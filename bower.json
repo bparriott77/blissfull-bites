@@ -21,7 +21,6 @@
   "dependencies": {
     "skeleton": "~2.0.4",
     "animate.css": "~3.4.0",
-    "jquery": "~2.1.4",
-    "Parallax-ImageScroll": "~0.2.3"
+    "jquery": "~2.1.4"
   }
 }
