@@ -47,75 +47,22 @@ title: Shop | Be Sweet Bakery
 			<hr />
             <p>Selecting the products below will fill out the form in the order section. Add the quantity and some personal information before submitting and we will get back to you as soon as possible.</p>
 		</div>
-		<div class="row">
+        {% for item in site.menu %}
+            {% assign loopindex = forloop.index0 | modulo: 3 %}
+            {% if loopindex == 0 %}
+                {% if forloop.index0 != 0 %}
+                    </div>
+                {% endif %}
+		        <div class="row">
+            {% endif %}
 			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
+				<img src="{{ item.image }}">
 				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
+					<h4>{{ item.title }}</h4>
+					<h5>{{ item.price }}</h5>
 				</div>
 			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-		</div>
+        {% endfor %}
     </div>
 </section>
 

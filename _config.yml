@@ -6,11 +6,64 @@ description: >
   Google search results) and in your feed.xml site description.
 baseurl: ""
 url: "http://besweetbakery.com"
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 
 sass:
-    style: compressed
+  style: compressed
+
+menu:
+  - title: Jumbo Muffins
+    price: $2.00
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Cupcakes
+    price: $2.00
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: 9 Inch Cheesecake
+    price: Prices Vary
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Cupcake Sized Cheesecake
+    price: $2.50 (minimum 1 dozen)
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Custom Cake
+    price: Prices Vary
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Cinnamon Rolls
+    price: $18.00/dozen
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Custom Design Cookies
+    price: $12.00/dozen
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Brownies & Bars
+    price: $15.00/dozen
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Quiches and Pies
+    price: $13.00
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Cupcake Bouquets
+    price: $30.00
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Cake Pops
+    price: $18.00/dozen
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Specialty Break Loafs
+    price: $8.00
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  - title: Coconut Macaroons
+    price: $12.00/dozen
+    image: /assets/images/dist/football_cupcakes.JPG
+    is_feature: false
+  
