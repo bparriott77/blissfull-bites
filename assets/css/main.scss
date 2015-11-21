@@ -42,6 +42,12 @@ section {
 		border-radius: 50%;
 		padding: 10%;
 		width: 80%;
+        
+        &.inline {
+            padding: 2rem;
+            float: left;
+            width: 40%;
+        }
 	}
 	
 	.img-description {
@@ -69,7 +75,7 @@ section {
 	&.dark {
 		background-color: $dark;
 		
-		h1, h4 {
+		h1, h4, p {
 			color: $light-font;
 		}
 	}
@@ -157,6 +163,14 @@ section {
             }
         }
 	}
+    
+    p {
+        font-size: 1.7rem;
+        
+        &:first-of-type {
+            padding-top: 2rem;
+        }
+    }
 }
 
 .subheader {
