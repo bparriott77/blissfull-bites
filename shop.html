@@ -12,29 +12,19 @@ title: Shop | Be Sweet Bakery
 			<div>best of the best</div>
 			<hr />
 		</div>
-		<div class="row">
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-			<div class="one-third column">
-				<img src="/assets/images/dist/football_cupcakes.JPG">
-				<div class="img-description">
-					<h4>Football Cupcakes</h4>
-					<h5>$1.00</h5>
-				</div>
-			</div>
-		</div>
+        <div class="row">
+            {% for item in site.menu %}
+                {% if item.is_featured %}
+                    <div class="one-third column">
+                        <img src="{{ item.image }}">
+                        <div class="img-description">
+                            <h4>{{ item.title }}</h4>
+                            <h5>{{ item.price }}</h5>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </section>
 
