@@ -32,7 +32,7 @@ menu:
     is_featured: false
   - title: Custom Cake
     price: Prices Vary
-    image: /assets/images/dist/flower_cake.JPG
+    image: /assets/images/dist/flower_cake.jpg
     is_featured: false
   - title: Cinnamon Rolls
     price: $18.00/dozen
@@ -48,7 +48,7 @@ menu:
     is_featured: false
   - title: Quiches and Pies
     price: $13.00
-    image: /assets/images/dist/quiche.JPG
+    image: /assets/images/dist/quiche.jpg
     is_featured: false
   - title: Cupcake Bouquets
     price: $30.00
