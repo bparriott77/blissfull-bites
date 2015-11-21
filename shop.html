@@ -14,12 +14,12 @@ title: Shop | Be Sweet Bakery
 		</div>
         <div class="row">
             {% for item in site.menu %}
-                {% if item.is_featured %}
-                    <div class="one-third column">
-                        <img src="{{ item.image }}">
+                {% if item[1].is_featured %}
+                    <div class="one-third column" id="{{ item[0] }}">
+                        <img src="{{ item[1].image }}">
                         <div class="img-description">
-                            <h4>{{ item.title }}</h4>
-                            <h5>{{ item.price }}</h5>
+                            <h4>{{ item[1].title }}</h4>
+                            <h5>{{ item[1].price }}</h5>
                         </div>
                     </div>
                 {% endif %}
@@ -45,11 +45,11 @@ title: Shop | Be Sweet Bakery
                 {% endif %}
 		        <div class="row">
             {% endif %}
-			<div class="one-third column">
-				<img src="{{ item.image }}">
+			<div class="one-third column" id="{{ item[0] }}">
+				<img src="{{ item[1].image }}">
 				<div class="img-description">
-					<h4>{{ item.title }}</h4>
-					<h5>{{ item.price }}</h5>
+					<h4>{{ item[1].title }}</h4>
+					<h5>{{ item[1].price }}</h5>
 				</div>
 			</div>
         {% endfor %}
@@ -90,3 +90,5 @@ title: Shop | Be Sweet Bakery
         </div>
     </div>
 </section>
+
+<script src="/assets/scripts/dist/shop.js"></script>
