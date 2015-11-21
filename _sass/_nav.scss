@@ -33,3 +33,18 @@ nav {
 		}
 	}
 }
+
+@media (max-width: 550px) {
+    nav {
+        .row {
+            .columns,
+            .columns:first-of-type {
+                text-align: center;
+            }
+            
+            a:not(.logo-container) {
+                padding: 1rem;
+            }
+        }
+    }
+}

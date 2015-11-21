@@ -209,3 +209,11 @@ hr {
 	border-top: 0.5rem solid $medium;
 	margin: 0;
 }
+
+@media (max-width: 750px) {
+    .subheader {
+        hr {
+            border-top: 0;
+        }
+    }
+}

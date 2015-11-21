@@ -22,11 +22,6 @@ footer {
 		padding: 0 1rem;
 	}
 	
-	.column {
-		margin-top: 3rem;
-		margin-bottom: 3rem;
-	}
-	
 	.connect {
 		line-height: 3rem;
 		margin: 0;
@@ -41,4 +36,19 @@ footer {
 			}
 		}
 	}
+}
+
+@media (max-width: 550px) {
+    footer {
+        .row {
+            .columns,
+            .columns:first-of-type {
+                text-align: center;
+            }
+            
+            a:not(.logo-container) {
+                padding: 1rem;
+            }
+        }
+    }
 }
