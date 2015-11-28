@@ -1,0 +1,20 @@
+.checkmark-wrapper {
+    width: 100px;
+    margin: 4em auto 0;
+    
+    .checkmark {
+        stroke: green;
+        stroke-dashoffset: 745.74853515625;
+        stroke-dasharray: 745.74853515625;
+        animation: dash 2s ease-out forwards infinite;
+    }
+    
+    @keyframes dash {
+        0% {
+            stroke-dashoffset: 745.74853515625;
+        }
+        100% {
+            stroke-dashoffset: 0;
+        }
+    }
+}

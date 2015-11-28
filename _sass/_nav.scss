@@ -19,6 +19,8 @@ nav {
 			text-decoration: none;
 			font-size: 2rem;
 			text-transform: uppercase;
+            -webkit-transition: background-color 0.3s, color 0.3s;
+            transition: background-color 0.3s, color 0.3s;
 			font-weight: bold;
 			vertical-align: top;
 			
