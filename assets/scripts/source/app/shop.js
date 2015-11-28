@@ -23,7 +23,7 @@ $(function() {
         $(e.currentTarget).find('.item-filter').css({ opacity: 1 });
         
         window.setTimeout(function() {
-            $(e.currentTarget).find('.item-filter').css({ opacity: 0 });
+            $(e.currentTarget).find('.item-filter').removeAttr('style');
         }, 1800);
         
         window.setTimeout(function() {
