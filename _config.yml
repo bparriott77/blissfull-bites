@@ -20,72 +20,92 @@ menu:
   1:
     title: Jumbo Muffins
     price: $2.00 (minimum ½ dozen)
-    image: /assets/images/dist/muffins.jpg
+    images:
+      - /assets/images/dist/muffins.jpg
     is_featured: false
     description: Poppy Seed with Lemon Glaze, Banana, Cappuccino Chocolate Chip, Blueberry Crumb, Double Chocolate Chip, Banana, Cinnamon Sugar, Almond, or request a custom flavor! – minimum of ½ doz. Per type required
   2:
     title: Cupcakes
     price: $2.00
-    image: /assets/images/dist/football_cupcakes.JPG
+    images:
+      - /assets/images/dist/strawberry_cupcakes.jpg
+      - /assets/images/dist/football_cupcakes.jpg
+      - /assets/images/dist/cloud_cupcakes.jpg
     is_featured: true
     description: Regular size $1.50, mini $0.75, and jumbo $2.00 each. Custom decorations available, prices for those may vary. Minimum order of one dozen per type. Cupcake pull apart cakes available.
   3:
     title: 9 Inch Cheesecake
     price: Prices Vary
-    image: /assets/images/dist/cheesecake.JPG
+    images:
+      - /assets/images/dist/snickers_cheesecake.jpg
+      - /assets/images/dist/espresso_cheesecake.jpg
     is_featured: true
     description: Peanut Butter Fudge, Snickers, Cappuccino Fudge, Red Velvet, Carrot Cake, Classic New York with Cherries or Strawberries, or request your own flavor
   4:
     title: Cupcake Sized Cheesecake
     price: $2.50 (minimum 1 dozen)
-    image: /assets/images/dist/default.jpg
+    images:
+      - /assets/images/dist/default.jpg
     is_featured: false
   5:
     title: Custom Cake
     price: Prices Vary
-    image: /assets/images/dist/flower_cake.jpg
+    images:
+      - /assets/images/dist/flower_cake.jpg
+      - /assets/images/dist/gender_reveal_cake.jpg
+      - /assets/images/dist/smash_cake.jpg
     is_featured: false
     description: Request your flavor, design, and size
   6:
     title: Cinnamon Rolls
     price: $18.00/dozen
-    image: /assets/images/dist/default.jpg
+    images:
+      - /assets/images/dist/default.jpg
     is_featured: false
     description: Cinnamon Rolls with Cream Cheese Frosting, Pecan Caramel Cinnamon Rolls, or Peanut Butter Cinnamon Rolls
   7:
     title: Custom Design Cookies
     price: $12.00/dozen
-    image: /assets/images/dist/halloween_cookies.JPG
+    images:
+      - /assets/images/dist/fall_cookies.jpg
+      - /assets/images/dist/halloween_cookies.jpg
     is_featured: true
     description: Can be individually wrapped
   8:
     title: Brownies & Bars
     price: $15.00/dozen
-    image: /assets/images/dist/brownies.JPG
+    images:
+      - /assets/images/dist/brownies.jpg
     is_featured: false
   9:
     title: Quiches and Pies
     price: $13.00
-    image: /assets/images/dist/quiche.jpg
+    images:
+      - /assets/images/dist/quiche.jpg
+      - /assets/images/dist/apple_pie.jpg
     is_featured: false
   10:
     title: Cupcake Bouquets
     price: $30.00
-    image: /assets/images/dist/cupcake_bouquet.jpg
+    images:
+      - /assets/images/dist/cupcake_bouquet.jpg
     is_featured: false
   11:
     title: Cake Pops
     price: $18.00/dozen
-    image: /assets/images/dist/cake_pops.jpg
+    images:
+      - /assets/images/dist/cake_pops.jpg
     is_featured: false
   12:
     title: Specialty Bread Loaves
     price: $8.00
-    image: /assets/images/dist/default.jpg
+    images:
+      - /assets/images/dist/default.jpg
     is_featured: false
   13:
     title: Coconut Macaroons
     price: $12.00/dozen
-    image: /assets/images/dist/default.jpg
+    images: 
+      - /assets/images/dist/default.jpg
     is_featured: false
   

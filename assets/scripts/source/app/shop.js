@@ -1,6 +1,8 @@
 var $ = require('jquery');
 var _ = require('underscore');
 
+require('../image_switcher');
+
 var orderItems = [];
 var itemTemplate = _.template('<div class="row">' +
                                    '<div class="nine columns">' +
@@ -69,11 +71,11 @@ function renderOrderItems() {
             id: i,
             name: item.name,
             quantity: item.quantity,
-        }))
+        }));
     });
     $('#order_items').append(itemTemplate({
         id: orderItems.length,
         name: '',
         quantity: '',
-    }))
+    }));
 }

@@ -28,8 +28,8 @@ title: Be Sweet Bakery
         <div class="row">
             {% for item in site.menu %}
                 {% if item[1].is_featured %}
-                    <div class="one-third column" id="{{ item[0] }}">
-                        <img src="{{ item[1].image }}">
+                    <div class="one-third column item" id="{{ item[0] }}">
+                        <img src="{{ item[1].images[0] }}">
                         <div class="img-description">
                             <h4>{{ item[1].title }}</h4>
                             <h5>{{ item[1].price }}</h5>
@@ -41,7 +41,7 @@ title: Be Sweet Bakery
 	</div>
 </section>
 
-<div class="img-switcher"></div>
+<div class="img-switcher" style="background-image: url(/assets/images/dist/pink_cupcakes_cover.jpg)"></div>
 
 <section class="dark">
 	<div class="container">
@@ -59,3 +59,5 @@ title: Be Sweet Bakery
 		</form>
 	</div>
 </section>
+
+<script src="/assets/scripts/dist/index.js"></script>
