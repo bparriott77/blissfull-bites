@@ -5,10 +5,8 @@ baseurl:
 url: http://besweetomaha.com
 facebook: https://www.facebook.com/besweetomaha
 twitter: https://twitter.com/besweetomaha
-description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Be Sweet Bakery in Omaha Nebraska serving custom cheesecakes, cupcakes, cookies, and much more.
+keywords: be,sweet,bakery,omaha,nebraska,brianna,pigsley,parriott,cheesecakes,cupcakes,cookies,custom
 
 # Build settings
 markdown: kramdown
@@ -26,9 +24,8 @@ menu:
     description: Poppy Seed with Lemon Glaze, Banana, Cappuccino Chocolate Chip, Blueberry Crumb, Double Chocolate Chip, Banana, Cinnamon Sugar, Almond, or request a custom flavor! – minimum of ½ doz. Per type required
   2:
     title: Cupcakes
-    price: $2.00
+    price: Prices Vary
     images:
-      - /assets/images/dist/strawberry_cupcakes.jpg
       - /assets/images/dist/football_cupcakes.jpg
       - /assets/images/dist/cloud_cupcakes.jpg
     is_featured: true
@@ -45,7 +42,7 @@ menu:
     title: Cupcake Sized Cheesecake
     price: $2.50 (minimum 1 dozen)
     images:
-      - /assets/images/dist/default.jpg
+      - /assets/images/dist/strawberry_cupcakes.jpg
     is_featured: false
   5:
     title: Custom Cake
@@ -86,7 +83,7 @@ menu:
     is_featured: false
   10:
     title: Cupcake Bouquets
-    price: $30.00
+    price: $30.00/dozen
     images:
       - /assets/images/dist/cupcake_bouquet.jpg
     is_featured: false
