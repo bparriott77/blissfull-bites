@@ -52,7 +52,7 @@ menu:
       - /assets/images/dist/gender_reveal_cake.jpg
       - /assets/images/dist/smash_cake.jpg
     is_featured: false
-    description: Request your flavor, design, and size
+    description: Request your flavor, design, and size. Feel free to send an email and attach a photo of your design.
   6:
     title: Cinnamon Rolls
     price: $18.00/dozen
