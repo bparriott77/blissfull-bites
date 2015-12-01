@@ -74,6 +74,7 @@ menu:
     price: $15.00/dozen
     images:
       - /assets/images/dist/brownies.jpg
+      - /assets/images/dist/lemon_cream_crumb_bars.jpg
     is_featured: false
   9:
     title: Quiches and Pies
