@@ -48,7 +48,8 @@ menu:
     title: Custom Cake
     price: Prices Vary
     images:
-      - /assets/images/dist/flower_cake.jpg
+      - /assets/images/dist/flower_cake_1.jpg
+      - /assets/images/dist/flower_cake_2.jpg
       - /assets/images/dist/gender_reveal_cake.jpg
       - /assets/images/dist/smash_cake.jpg
       - /assets/images/dist/pink_champagne_cake.jpg
