@@ -8,7 +8,6 @@ twitter: https://twitter.com/besweetomaha
 description: Be Sweet Bakery in Omaha Nebraska serving custom cheesecakes, cupcakes, cookies, and much more.
 keywords: be,sweet,bakery,omaha,nebraska,brianna,pigsley,parriott,cheesecakes,cupcakes,cookies,custom
 
-# Build settings
 markdown: kramdown
 
 sass:
@@ -54,6 +53,8 @@ menu:
       - /assets/images/dist/smash_cake.jpg
       - /assets/images/dist/pink_champagne_cake.jpg
       - /assets/images/dist/gun_target_cake.jpg
+      - /assets/images/dist/doughnut_coffee_cake.jpeg
+      - /assets/images/dist/cross_cake.jpeg
     is_featured: false
     description: Request your flavor, design, and size. Feel free to send an email and attach a photo of your design.
   6:
