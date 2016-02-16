@@ -25,8 +25,9 @@ menu:
     title: Cupcakes
     price: Prices Vary
     images:
-      - /assets/images/dist/football_cupcakes.jpg
+      - /assets/images/dist/specialty_cupcakes.jpg
       - /assets/images/dist/cloud_cupcakes.jpg
+      - /assets/images/dist/football_cupcakes.jpg
     is_featured: true
     description: Regular size $1.50, mini $0.75, and jumbo $2.00 each. Custom decorations available, prices for those may vary. Minimum order of one dozen per type. Cupcake pull apart cakes available.
   3:
@@ -68,7 +69,9 @@ menu:
     title: Custom Design Cookies
     price: $12.00/dozen
     images:
+      - /assets/images/dist/made_with_love.jpg
       - /assets/images/dist/fall_cookies.jpg
+      - /assets/images/dist/home_sweet_home.jpg
       - /assets/images/dist/halloween_cookies.jpg
     is_featured: true
     description: Can be individually wrapped
@@ -97,17 +100,5 @@ menu:
     price: $18.00/dozen
     images:
       - /assets/images/dist/cake_pops.jpg
-    is_featured: false
-  12:
-    title: Specialty Bread Loaves
-    price: $8.00
-    images:
-      - /assets/images/dist/default.jpg
-    is_featured: false
-  13:
-    title: Coconut Macaroons
-    price: $12.00/dozen
-    images: 
-      - /assets/images/dist/default.jpg
     is_featured: false
   
